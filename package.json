@@ -1,0 +1,39 @@
+{
+  "name": "node_packages",
+  "version": "1.0.0",
+  "description": "A collection of node packages bundled with webpack.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development --port 3000 --hot --https --cert ssl/cert.pem --key ssl/key.pem",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://flowfound-darren@bitbucket.org/flowfound-darren/flowfound.ar.dashboard.git"
+  },
+  "author": "Darren O'Neale",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/flowfound-darren/flowfound.ar.dashboard#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "react-router": "^4.3.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1"
+  }
+}
