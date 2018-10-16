@@ -10,7 +10,7 @@ import Module1 from './module1/index.js';
 
 const routes = [
     new ReactRoute({key:'home',exactPath:true,path:'/',component:<Menu/>}).val(),
-    new ReactRoute({key:'module1',exactPath:false,path:'/module1',component:<Module1/>}).val(),
+    new ReactRoute({key:'module1',exactPath:false,path:'/threejs-colorchanger',component:<Module1/>}).val(),
 ]
 
 render(

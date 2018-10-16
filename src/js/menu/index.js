@@ -14,30 +14,7 @@ export default class Menu extends Component {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
-                    </div>
-                    <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
-                    </div>
-                    <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
-                    </div>
-                    <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
-                    </div>
-                    <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
-                    </div>
-                    <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
-                    </div>
-                    <div className='col'>
-                        <MenuButton label='Module 1' dest='#/module1' />
+                        <MenuButton label='THREE.js Color Changer' dest='#/threejs-colorchanger' />
                     </div>
                 </div>
             </div>

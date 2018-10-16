@@ -20,7 +20,12 @@ export default class MenuButton extends Component
     render()
     {
         return (
-            <button className='menu-button' onClick={this.goto}>{this.label}</button>
+            <button className='menu-button' onClick={this.goto}>
+                <div className="content-preview"></div>
+                <div className='button-header'></div>
+                <h4>{this.label}</h4>
+                <div className='button-footer'></div>
+            </button>
         )
     }
 }
